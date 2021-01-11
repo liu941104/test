@@ -187,12 +187,4 @@ if __name__ == '__main__':
                     f.write(str(info_list) + '\n')
                 print('============================')
 
-"""
-;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;
-.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
-
-mCurrentFocus=Window{caded5c u0 com.xingin.xhs/com.xingin.login.activity.WelcomeActivity}
-mCurrentFocus=Window{c780ef6 u0 com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity}
-"""
-
 
