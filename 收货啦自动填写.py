@@ -124,37 +124,10 @@ def fill_in(problem_url, pro_answer):
     time.sleep(5)
 
     # 出现新的界面，进行登陆
-    '刘书刚  卡卡'
-    driver.find_element_by_xpath('//*[@id="popusername"]').send_keys('1062096382@qq.com')
-    driver.find_element_by_xpath('//*[@id="poppassword"]').send_keys('123456')
-    '边进辉  大泽九章'
-    # driver.find_element_by_xpath('//*[@id="popusername"]').send_keys('大泽九章')
-    # driver.find_element_by_xpath('//*[@id="poppassword"]').send_keys('bjh73283')
-    '张环宇  007'
-    # driver.find_element_by_xpath('//*[@id="popusername"]').send_keys('291707309@qq.com')
-    # driver.find_element_by_xpath('//*[@id="poppassword"]').send_keys('zhy123g123j')
-    '王宾   '
-    # driver.find_element_by_xpath('//*[@id="popusername"]').send_keys('3264034469@qq.com')
-    # driver.find_element_by_xpath('//*[@id="poppassword"]').send_keys('123456')
-    '李翠玲  给你三个亿'
-    # driver.find_element_by_xpath('//*[@id="popusername"]').send_keys('给你三个亿')
-    # driver.find_element_by_xpath('//*[@id="poppassword"]').send_keys('zhang123')
-
-    '曾为   曾为'
-    # driver.find_element_by_xpath('//*[@id="popusername"]').send_keys('曾为')
-    # driver.find_element_by_xpath('//*[@id="poppassword"]').send_keys('Zengwei1996')
-
-    'lld'
-    # driver.find_element_by_xpath('//*[@id="popusername"]').send_keys('Pyma')
-    # driver.find_element_by_xpath('//*[@id="poppassword"]').send_keys('123456')
-
-    'syj'
-    # driver.find_element_by_xpath('//*[@id="popusername"]').send_keys('137232613@qq.com')
-    # driver.find_element_by_xpath('//*[@id="poppassword"]').send_keys('123456')
-
-    '臧鹏  zp'
-    # driver.find_element_by_xpath('//*[@id="popusername"]').send_keys('18524158889@163.com')
-    # driver.find_element_by_xpath('//*[@id="poppassword"]').send_keys('zp7512799')
+    
+ 
+    driver.find_element_by_xpath('//*[@id="popusername"]').send_keys('xxxxxxxxxxxx')
+    driver.find_element_by_xpath('//*[@id="poppassword"]').send_keys('xxxxxxxxxxxxx')
 
     driver.find_element_by_xpath('//*[@id="submit"]').click()
     time.sleep(5)
